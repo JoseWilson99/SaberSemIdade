@@ -1,4 +1,4 @@
-# 🚀 Back-end - Saber sem Idade
+#  Back-end - Saber sem Idade
 
 API REST desenvolvida com **Java**, **Spring Boot** e **MySQL**, responsável pelo gerenciamento de usuários, cursos e matrículas da plataforma **Saber sem Idade**.
 
@@ -15,7 +15,7 @@ API REST desenvolvida com **Java**, **Spring Boot** e **MySQL**, responsável pe
 
 # Endpoints da API
 
-## 👥 Usuários (`/api/usuarios`)
+##  Usuários (`/api/usuarios`)
 
 ### GET `/api/usuarios`
 
@@ -52,14 +52,6 @@ Busca um usuário pelo ID.
   "dataCadastro": "2026-07-08T14:30:00.000+00:00"
 }
 ```
-
-**Erro**
-
-```
-404 Not Found
-```
-
----
 
 ### POST `/api/usuarios`
 
@@ -146,7 +138,7 @@ Usuário excluído com sucesso.
 
 ---
 
-# 📚 Cursos (`/api/cursos`)
+# Cursos (`/api/cursos`)
 
 ### GET `/api/cursos`
 
@@ -224,7 +216,7 @@ Exclui um curso.
 
 ---
 
-# 📝 Matrículas (`/api/matriculas`)
+#  Matrículas (`/api/matriculas`)
 
 ### GET `/api/matriculas`
 
